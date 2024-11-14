@@ -16,9 +16,9 @@ We have discovered better ways of building usable, accessible, reliable, maintai
 ## 🌟 Features
 
 - **Responsive Design**: Fully responsive layout that works on all devices
-- **Dark Mode**: Elegant dark mode implementation with system preference detection
-- **SEO**: Optimised for SEO
-- **Accessibility**: Fully accessible and includes Dark/Light mode support 
+- **Dark Mode**: Elegant dark mode implementation
+- **SEO**: Completely SEO-friendly
+- **Accessibility**: Developed with accessiblity in mind
 - **Performance**: Optimised for fast loading and smooth interactions
 
 ## 🚀 Getting Started
@@ -54,6 +54,19 @@ npm run build
 npm run preview
 ```
 
+## 📦 Project Structure
+
+```
+src/
+├── assets/           # Media files
+├── components/       # React components
+├── context/          # React context providers
+|── pages/            # React pages
+├── App.tsx           # Main application component
+├── main.tsx          # Application entry point
+└── index.css         # Global styles
+```
+
 ## 🛠️ Built With
 
 - **React** - UI Framework
@@ -66,18 +79,6 @@ npm run preview
 ## 🌐 Live Demo
 
 Visit the live site: [Quality Engineering Manifesto](https://quality-engineering-manifesto.netlify.app)
-
-## 📦 Project Structure
-
-```
-src/
-├── components/       # React components
-├── context/          # React context providers
-|── pages/            # React pages
-├── App.tsx           # Main application component
-├── main.tsx          # Application entry point
-└── index.css         # Global styles
-```
 
 ## 🤝 Contributing
 
